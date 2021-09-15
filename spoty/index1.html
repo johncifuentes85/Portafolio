@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>La oreja de van gogh</title>
+</head>
+<body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-dark" style="background-color: #232F39;">
+        <div class="container">
+          <a style="font-family: 'Times New Roman', Times, serif; font-size: 30px;" class="navbar-brand" href="#">LA OREJA DE VAN GOGH</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Actualidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Discografia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Tienda</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img8.jpg" class="d-block w-100" alt="...">
+          </div>
+          <!-- <div class="carousel-item">
+            <img src="img/oreja2-740x301.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div> -->
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="container mt-5">
+          <h3 style="color: aliceblue; text-align: center;">Música</h3>
+          <br>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="img/img1.jpg" class="card-img-top" alt="foto1" id="foto1">
+                      <div class="card-body">
+                        <h5 class="card-title" id="titulo1">Paris</h5>
+                        <audio src="audio/Paris.mp3" controls class="w-100" id="audio1"></audio>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="img/img2.jpg" class="card-img-top" alt="foto2" id="foto2">
+                      <div class="card-body">
+                        <h5 class="card-title" id="titulo2">Puedes Contar Conmigo</h5>
+                        <audio src="audio/Puedes Contar Conmigo.mp3" controls class="w-100" id="audio2"></audio>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="img/img3.jpg" class="card-img-top" alt="foto3" id="foto3">
+                      <div class="card-body">
+                        <h5 class="card-title" id="titulo3">Esa Chica</h5>
+                        <audio src="audio/Esa Chica.mp3" controls class="w-100" id="audio3"></audio>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="img/img3.jpg" class="card-img-top" alt="foto3" id="foto3">
+                      <div class="card-body">
+                        <h5 class="card-title" id="titulo3">Esa Chica</h5>
+                        <audio src="audio/Esa Chica.mp3" controls class="w-100" id="audio3"></audio>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button id="boton" class="btn btn-outline-primary" type="button">Ver mas</button>
+                        <!-- <button id="boton1" class="btn btn-outline-primary" type="button1">Ver mas</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+      <div>
+        <br>
+        <br>
+      </div>
+    </footer>
+    <script id="boton" src="controlador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
